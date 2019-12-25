@@ -1,8 +1,12 @@
 def base_hash
  Hash.new 
+<<<<<<< HEAD
  monopoly = {
    :railroads => {} 
  }
+=======
+ {dogs: "poodle"}
+>>>>>>> 38d0c626a25eaa65d3e720a2c1d050d13d14981b
 end
  
   # Remember implicit return! We're returning this new Hash _without_ the
@@ -161,4 +165,8 @@ end
 #       expect(monopoly_with_fourth_tier[:railroads][:names][:shortline_railroad]["mortgage_value"]).to eq("$800")
 #     end
 #   end
+<<<<<<< HEAD
 
+=======
+end
+>>>>>>> 38d0c626a25eaa65d3e720a2c1d050d13d14981b
